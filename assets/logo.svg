@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 65" width="212" height="65">
+  <g fill="#5fb2e4">
+    <path d="M14 32c0-9 7-16 16-16 5 0 9 2 12 5l-4 4c-2-2-5-3-8-3-6 0-11 5-11 10s5 10 11 10c4 0 7-2 9-5h-8v-5h14c0 9-7 15-15 15-9 0-16-7-16-15z"/>
+    <text x="48" y="40" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="20" fill="#111">Dragonfly</text>
+    <text x="48" y="58" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="12" fill="#5fb2e4" letter-spacing="2">HEALTH</text>
+  </g>
+</svg>
