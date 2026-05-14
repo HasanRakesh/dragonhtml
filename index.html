@@ -1,50 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dragonfly Health</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO -->
+    <title>Dragonfly Health — The Operating Platform for Care-at-Home</title>
+    <meta name="description" content="Dragonfly Health provides the essential clinical and operational infrastructure for today's most complex care-at-home models — DME, hospice pharmacy, PACE, SNF and Hospital-at-Home.">
+    <link rel="canonical" href="https://www.dragonflyhealth.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dragonfly Health — The Operating Platform for Care-at-Home">
+    <meta property="og:description" content="Integrated DME, hospice pharmacy and clinical technology for community-based care providers.">
+    <meta property="og:image" content="https://www.dragonflyhealth.com/assets/img/og-image.jpg">
+    <meta property="og:url" content="https://www.dragonflyhealth.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon/favicon.svg">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+
+    <!-- Preload hero -->
+    <link rel="preload" as="image" href="assets/img/hero-couple.webp">
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="assets/vendors/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/vendors/lity/css/lity.min.css">
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  <!-- Header Top -->
-  <div class="header-top">
-    <div class="header-top__greenbar"></div>
-    <div class="header-top__links">
-      <a href="https://df.deltaetools.com/Account/Login" target="_blank" rel="noopener">RX Login</a>
-      <a href="https://www2.dmetrack.com/" target="_blank" rel="noopener">DME Login</a>
-      <a href="https://www.deltacarerx.com/" target="_blank" rel="noopener">Delta Care Rx</a>
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <div class="main-wrapper">
+
+        <!-- Header Top: green bar + utility links -->
+        <div class="header-top">
+            <div class="header-top__greenbar" aria-hidden="true"></div>
+            <div class="container long">
+                <ul class="header-top__links" aria-label="Account links">
+                    <li><a href="https://df.deltaetools.com/Account/Login" target="_blank" rel="noopener">Rx Login</a></li>
+                    <li><a href="https://www2.dmetrack.com/" target="_blank" rel="noopener">DME Login</a></li>
+                    <li><a href="https://www.deltacarerx.com/" target="_blank" rel="noopener">Delta Care Rx</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Header Start -->
+        <header class="header-area">
+            <div class="container long">
+                <div class="header-inn">
+                    <a href="index.html" class="header-logo" aria-label="Dragonfly Health home">
+                        <img src="assets/img/header-logo.svg" alt="Dragonfly Health" width="180" height="65">
+                    </a>
+                    <div class="header-menu">
+                        <nav id="menu" class="mainmenu" aria-label="Primary">
+                            <ul>
+                                <li><a href="index.html" class="is-active">Home</a></li>
+                                <li><a href="who-we-are.html">Who We Are</a></li>
+                                <li><a href="what-we-do.html">What We Do</a></li>
+                                <li><a href="who-we-serve.html">Who We Serve</a></li>
+                                <li><a href="resources.html">Resources</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            <div class="d-lg-none mt-3">
+                                <a href="schedule-demo.html" class="cta-btn btn_brand">Schedule Demo</a>
+                            </div>
+                        </nav>
+                        <div class="header-nav">
+                            <button type="button" class="icon-btn" aria-label="Search site">
+                                <em class="fa-solid fa-magnifying-glass" aria-hidden="true"></em>
+                            </button>
+                            <a href="schedule-demo.html" class="cta-btn btn_brand d-none d-lg-inline-flex">Schedule Demo</a>
+                            <button id="menu-toggle" type="button"
+                                    aria-label="Toggle menu"
+                                    aria-controls="menu"
+                                    aria-expanded="false">
+                                <span></span><span></span><span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <main id="main">
+
+            <!-- === Hero === -->
+            <section class="hero-area relative">
+                <div class="hero-blob hero-blob--green" aria-hidden="true"></div>
+                <div class="hero-blob hero-blob--blue" aria-hidden="true"></div>
+
+                <div class="container long relative">
+                    <div class="hero-inn">
+                        <div class="hero-text">
+                            <h1 class="hero-heading">A Community<br>United by Care</h1>
+                            <p>Dragonfly Health is a leading care-at-home technology and services platform, bringing high integrity and operational experience to the center of every home-based journey.</p>
+                            <a href="who-we-are.html" class="cta-btn btn_white">More</a>
+                        </div>
+
+                        <div class="hero-media">
+                            <img src="assets/img/hero-couple.webp" alt="Hospice patient and her husband at home being supported by Dragonfly Health care services" class="hero-image" width="900" height="600">
+                        </div>
+                    </div>
+
+                    <div class="hero-controls" aria-label="Hero carousel controls">
+                        <span class="hero-controls__page">01 / 03</span>
+                        <div class="hero-controls__arrows">
+                            <button type="button" class="hero-arrow" aria-label="Previous slide">
+                                <em class="fa-solid fa-angle-left" aria-hidden="true"></em>
+                            </button>
+                            <button type="button" class="hero-arrow" aria-label="Next slide">
+                                <em class="fa-solid fa-angle-right" aria-hidden="true"></em>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === Operating Platform === -->
+            <section class="platform-area">
+                <div class="platform-blob platform-blob--right" aria-hidden="true"></div>
+                <div class="platform-blob platform-blob--left" aria-hidden="true"></div>
+
+                <div class="container">
+                    <div class="text-center site-heading">
+                        <h2 class="section-heading">The Operating Platform<br>for Care-at-Home</h2>
+                        <p class="section-lead">Dragonfly Health provides the essential clinical and operational infrastructure for the industry's most complex care models.</p>
+                    </div>
+
+                    <div class="row g-4">
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Integrated National Network</h3>
+                                <p>Count on our nationally managed network of vetted DME providers and over 65,000 retail and LTC pharmacies — ensuring anytime, anywhere access.</p>
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Reliable Direct Fulfillment</h3>
+                                <p>Drive efficiency with 15+ DME distribution centers and a national multi-state pharmacy delivering over six million annual prescriptions.</p>
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Intuitive Technology &amp; Workflows</h3>
+                                <p>Simplify care with DFEHub&trade; for seamless ordering and tracking, and DCPx&trade; for fast e-prescribing — and much wider reach.</p>
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Seamless EMR Interoperability</h3>
+                                <p>Eliminate manual data entry and reduce burden through powerful interfaces with leading EMRs to maintain a single source of truth.</p>
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Actionable Visibility &amp; Analytics</h3>
+                                <p>Transform care insights into action with executive dashboards and custom analytics, providing deep clinical, operational, and financial insights.</p>
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <div class="feature-card">
+                                <h3 class="feature-card__title clr_brand">Expert Clinical &amp; Account Support</h3>
+                                <p>Expert teams for every need — from clinical consultations and utilization management to dedicated account oversight.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === Whatever it takes (video CTA) === -->
+            <section class="video-area relative">
+                <img src="assets/img/nurse-patient.webp" alt="Dragonfly Health nurse comforting a patient during a home visit" class="video-area__bg" width="1920" height="900">
+                <div class="video-area__overlay" aria-hidden="true"></div>
+
+                <div class="container long relative">
+                    <div class="row align-items-end">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="video-area__text">
+                                <h2 class="clr_white">Whatever it takes.<br>Wherever it takes us.</h2>
+                                <p class="clr_white_alpha">Experimentation. When we do, dive in and do good in any task — it's a reflection of our ethos, values and people. It powers our mission: dedicated and committed to deliver exceptional solutions for our patients and our partners.</p>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-lity class="play-btn">
+                                    <span class="play-btn__icon" aria-hidden="true">
+                                        <em class="fa-solid fa-play"></em>
+                                    </span>
+                                    <span class="play-btn__label">Play Video</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === Who We Serve === -->
+            <section class="serve-area">
+                <div class="container">
+                    <div class="text-center site-heading">
+                        <h2 class="section-heading">Who We Serve</h2>
+                        <p class="section-lead">Providers administering care to vulnerable populations rely on our ability to be the gears in the home — providing a unique integrated platform that ensures patients never face a delay in the medications or equipment they depend on.</p>
+                    </div>
+
+                    <div class="row g-4 g-lg-5">
+                        <article class="col-md-6">
+                            <div class="serve-card">
+                                <span class="serve-card__icon" aria-hidden="true"><em class="fa-solid fa-heart"></em></span>
+                                <h3 class="serve-card__title">Hospice</h3>
+                                <p>Our hospice-dedicated pharmacy and DME models drive operational efficiency and utilization management.</p>
+                                <a href="hospice.html" class="serve-card__link">More</a>
+                            </div>
+                        </article>
+                        <article class="col-md-6">
+                            <div class="serve-card">
+                                <span class="serve-card__icon" aria-hidden="true"><em class="fa-solid fa-user-doctor"></em></span>
+                                <h3 class="serve-card__title">PACE</h3>
+                                <p>We support over 80% of the PACE market, streamlining DME access, medication management and home modifications.</p>
+                                <a href="pace.html" class="serve-card__link">More</a>
+                            </div>
+                        </article>
+                        <article class="col-md-6">
+                            <div class="serve-card">
+                                <span class="serve-card__icon" aria-hidden="true"><em class="fa-solid fa-hospital-user"></em></span>
+                                <h3 class="serve-card__title">Skilled Nursing Facilities</h3>
+                                <p>Managing complex patient needs broader than ever with our network across nodal and specialized clinical support.</p>
+                                <a href="skilled-nursing.html" class="serve-card__link">More</a>
+                            </div>
+                        </article>
+                        <article class="col-md-6">
+                            <div class="serve-card">
+                                <span class="serve-card__icon" aria-hidden="true"><em class="fa-solid fa-house-medical"></em></span>
+                                <h3 class="serve-card__title">Hospital-at-Home / Waiver</h3>
+                                <p>We enable better outcomes with infrastructure built for home-based logistics and real-time clinical monitoring.</p>
+                                <a href="hospital-at-home.html" class="serve-card__link">More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === Get Started (contact form) === -->
+            <section class="getstarted-area">
+                <div class="getstarted-blob getstarted-blob--blue" aria-hidden="true"></div>
+                <div class="getstarted-blob getstarted-blob--green" aria-hidden="true"></div>
+
+                <div class="container long relative">
+                    <div class="row align-items-start">
+                        <div class="col-lg-5">
+                            <div class="getstarted-info">
+                                <h2 class="clr_white">Get Started</h2>
+                                <p class="clr_white_alpha">Learn more about our comprehensive service offerings, dedicated support and powerful infrastructure built to keep care moving — at home and beyond.</p>
+                                <ul class="getstarted-contacts">
+                                    <li>
+                                        <em class="fa-solid fa-phone" aria-hidden="true"></em>
+                                        <a href="tel:+18776357250">877-635-7250</a>
+                                    </li>
+                                    <li>
+                                        <em class="fa-solid fa-envelope" aria-hidden="true"></em>
+                                        <a href="mailto:careers@dragonflyhealth.com">careers@dragonflyhealth.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <form class="getstarted-form" action="/contact-submit" method="post" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <label for="f_name" class="form-label">First Name <span aria-hidden="true">*</span></label>
+                                        <input type="text" id="f_name" name="first_name" autocomplete="given-name" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="l_name" class="form-label">Last Name <span aria-hidden="true">*</span></label>
+                                        <input type="text" id="l_name" name="last_name" autocomplete="family-name" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="company" class="form-label">Company <span aria-hidden="true">*</span></label>
+                                        <input type="text" id="company" name="company" autocomplete="organization" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="email" class="form-label">Email <span aria-hidden="true">*</span></label>
+                                        <input type="email" id="email" name="email" autocomplete="email" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="phone" class="form-label">Phone <span aria-hidden="true">*</span></label>
+                                        <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <fieldset class="form-radio-group">
+                                            <legend class="form-label">Are you currently a client?</legend>
+                                            <label class="form-radio">
+                                                <input type="radio" name="is_client" value="yes"> <span>Yes</span>
+                                            </label>
+                                            <label class="form-radio">
+                                                <input type="radio" name="is_client" value="no" checked> <span>No</span>
+                                            </label>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea id="message" name="message" rows="5"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="cta-btn btn_brand">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === Latest Posts === -->
+            <section class="posts-area">
+                <div class="container long">
+                    <div class="text-center site-heading">
+                        <h2 class="section-heading">Latest Posts</h2>
+                    </div>
+
+                    <div class="row g-4">
+                        <article class="col-md-6 col-lg-4">
+                            <a class="post-card" href="blog/deprescribing-in-hospice-care.html">
+                                <span class="post-card__image">
+                                    <img src="assets/img/post-1.webp" alt="Hospice clinician reviewing medication list with elderly patient" width="600" height="360" loading="lazy">
+                                </span>
+                                <span class="post-card__body">
+                                    <h3 class="post-card__title">Deprescribing in Hospice Care</h3>
+                                    <p>A practical overview of how to safely simplify medication regimens for hospice patients while preserving comfort and dignity.</p>
+                                </span>
+                            </a>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <a class="post-card" href="blog/educating-patients-caregivers.html">
+                                <span class="post-card__image">
+                                    <img src="assets/img/post-2.webp" alt="Hospice nurse showing a tablet to a caregiver in a home setting" width="600" height="360" loading="lazy">
+                                </span>
+                                <span class="post-card__body">
+                                    <h3 class="post-card__title">Educating Patients &amp; Caregivers on Common Symptoms in Hospice Care</h3>
+                                    <p>Clear, compassionate guidance for families navigating symptoms at end of life — and the tools clinicians can share.</p>
+                                </span>
+                            </a>
+                        </article>
+                        <article class="col-md-6 col-lg-4">
+                            <a class="post-card" href="blog/medication-relatedness-coverage.html">
+                                <span class="post-card__image">
+                                    <img src="assets/img/post-3.webp" alt="Pharmacist reviewing medication coverage documentation" width="600" height="360" loading="lazy">
+                                </span>
+                                <span class="post-card__body">
+                                    <h3 class="post-card__title">Approach to Medication Relatedness and Coverage: Guidance for Hospice Practice</h3>
+                                    <p>How to assess medication relatedness with confidence — and document coverage decisions that hold up under audit.</p>
+                                </span>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <a href="blog.html" class="cta-btn btn_white_outline">View All</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer Start -->
+        <footer class="footer-area">
+            <div class="container long">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-widget">
+                            <a href="index.html" class="footer-logo">
+                                <img src="assets/img/footer-logo.svg" alt="Dragonfly Health" width="180" height="60">
+                            </a>
+                            <p>We embody excellence in the industry, our people, and the lives we touch. We are a guiding force for what's ahead — delivering more than equipment and medications, but also comfort and peace of mind.</p>
+                            <ul class="footer-social" aria-label="Dragonfly Health on social media">
+                                <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><em class="fa-brands fa-linkedin-in" aria-hidden="true"></em></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><em class="fa-brands fa-instagram" aria-hidden="true"></em></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><em class="fa-brands fa-facebook-f" aria-hidden="true"></em></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><em class="fa-brands fa-youtube" aria-hidden="true"></em></a></li>
+                            </ul>
+                            <p class="footer-phone"><a href="tel:+18776357250">877-635-7250</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="footer-widget">
+                                    <h4 class="footer-title">Company</h4>
+                                    <ul class="footer_links">
+                                        <li><a href="who-we-are.html">Who We Are</a></li>
+                                        <li><a href="what-we-do.html">What We Do</a></li>
+                                        <li><a href="who-we-serve.html">Who We Serve</a></li>
+                                        <li><a href="resources.html">Resources</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="footer-widget">
+                                    <h4 class="footer-title">Connect</h4>
+                                    <ul class="footer_links">
+                                        <li><a href="schedule-demo.html">Schedule a Demo</a></li>
+                                        <li><a href="provider-network.html">Join Our Provider Network</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="footer-widget footer-widget--badge">
+                            <img src="assets/img/hitrust-badge.png" alt="HITRUST CSF Certified" width="120" height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container long">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-start text-center">
+                            <ul class="fc_links">
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-md-end text-center">
+                            <p>&copy; 2026 Dragonfly Health. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
     </div>
-  </div>
 
-  <!-- Header Main -->
-  <header class="header-main">
-    <div class="header-main__inner">
-      <a href="/" class="header-main__logo" aria-label="Dragonfly Health home">
-        <img src="assets/logo.svg" alt="Dragonfly Health" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'logo-fallback',textContent:'Dragonfly Health'}))" />
-      </a>
+    <!-- Organization schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Dragonfly Health",
+        "url": "https://www.dragonflyhealth.com",
+        "logo": "https://www.dragonflyhealth.com/assets/img/header-logo.svg",
+        "telephone": "+1-877-635-7250",
+        "sameAs": [
+            "https://www.linkedin.com/company/dragonfly-health/",
+            "https://www.facebook.com/dragonflyhealth/",
+            "https://www.instagram.com/dragonflyhealth/"
+        ]
+    }
+    </script>
 
-      <nav class="header-main__nav" aria-label="Primary">
-        <ul>
-          <li><a href="/" class="is-active">Home</a></li>
-          <li><a href="/who-we-are">Who We Are</a></li>
-          <li><a href="/what-we-do">What We Do</a></li>
-          <li><a href="/who-we-serve">Who We Serve</a></li>
-          <li><a href="/resources">Resources</a></li>
-          <li><a href="/contact">Contact Us</a></li>
-        </ul>
-      </nav>
+    <!-- Scripts -->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick/slick.min.js"></script>
+    <script src="assets/vendors/lity/js/lity.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-      <div class="header-main__actions">
-        <button class="icon-btn" aria-label="Search">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="11" cy="11" r="7"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-        </button>
-        <a href="/schedule-demo" class="btn-primary">Schedule Demo</a>
-      </div>
-    </div>
-  </header>
 </body>
+
 </html>
